@@ -114,7 +114,21 @@ class _MyHomePageState extends State<MyHomePage> {
               textScaleFactor: 1.5,
             ),
             // 仿写知识点3.2按钮 https://book.flutterchina.club/chapter3/buttons.html#_3-2-5-%E5%B8%A6%E5%9B%BE%E6%A0%87%E7%9A%84%E6%8C%89%E9%92%AE
-
+            ElevatedButton.icon(
+              icon: Icon(Icons.send),
+              label: Text("发送"),
+              onPressed: (){},
+            ),
+            OutlinedButton.icon(
+              icon: Icon(Icons.add),
+              label: Text("添加"),
+              onPressed:(){},
+            ),
+            TextButton.icon(
+              icon: Icon(Icons.info),
+              label: Text("详情"),
+              onPressed: (){},
+            ),
           ],
         ),
       ),
